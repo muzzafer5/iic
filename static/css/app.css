@@ -1,0 +1,7 @@
+.navbar-brand {
+  font-family: 'Peralta', cursive;
+}
+
+body {
+  background-image: url('../img/logout.png') !important;
+}
