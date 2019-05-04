@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+
+{% block content %}
+  <div class="row justify-content-center my-4">
+    <div class="col-lg-10 col-md-11 col-sm-12">
+      <form method="post" novalidate>
+        {% csrf_token %}
+        {% include 'includes/form.html' %}
+        <a class="btn btn-outline-secondary" href="{% url 'password_change' %}">Change password</a><br><br>
+        <button type="submit" class="btn btn-success">Save changes</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}
