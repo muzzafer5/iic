@@ -1,7 +1,9 @@
 Requirements--
+
 Externa libraries-
   pip install django
   pip install widget_tweaks
+  
 Open the main folder then run the following command,
   python manage.py makemigrations
   python manage.py migrate
